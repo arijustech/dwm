@@ -30,7 +30,7 @@ static const char *const autostart[] = {
 	"dbus-update-activation-enviromment", NULL,
 	"flameshot", NULL,
 	"dunst", NULL,
-	"picom", "--config", "$HOME/.config/picom/picom.conf", NULL,
+	"picom", "-b", NULL,
 	"sh", "-c", "feh --randomize --bg-fill ~/Pictures/wallpapers/*", NULL,
 	"sh", "-c", "nm-applet &", NULL,
 	"slstatus", NULL,
